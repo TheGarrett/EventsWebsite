@@ -1,0 +1,69 @@
+body {
+  background-image: url("../images/loginImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+.loginContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+  margin-top: 17%;
+  height: 200px;
+  width: 635px;
+}
+
+.logoContainer {
+  height: 200px;
+  width: 285px;
+}
+
+.loginbreak {
+  border: 2px solid rgb(135, 131, 136);
+  margin-left: 9%;
+  height: 300px;
+  margin-top: -25%;
+}
+
+.loginFormContainer {
+  height: 200px;
+  width: 155px;
+  margin-left: 8%;
+  padding-top: 7%;
+}
+
+.logoIcon {
+  font-size: 10em;
+  color: #2D2A84;
+  margin-left: 26%;
+}
+
+a:hover {
+  color: #2D2A84;
+}
+
+.logoText {
+  font-size: 35px;
+  margin-top: -14%;
+  margin-left: 4%;
+  font-weight: bold;
+}
+
+.loginFormText {
+  font-weight: bold;
+}
+
+.loginFormInput {
+  margin-top: -1.6%;
+  position: absolute;
+}
+
+.loginButton {
+  float: right;
+  margin-top: 25%;
+  height: 27px;
+  width: 81px;
+  color: white;
+  background-color: #2D2A84;
+  border: 0;
+}
